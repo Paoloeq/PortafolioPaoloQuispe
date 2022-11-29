@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;500&family=Raleway:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.encabezado__container{
+    width: 100%;
+    padding: 25px;
+    background-color: #254F80;
+    color: white;
+    text-align: center;
+}
+
+.encabezado__title{
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: solid 1px white;
+    text-transform: uppercase;
+
+}
+
+.encabezado__icons  {
+    display: flex;
+    justify-content: space-between ;
+    
+    font-size: 30px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.icon{
+    color: white;
+}
+
+
+.cards{
+    padding: 20px;
+    width: 800px;
+    margin: 40px auto 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card{
+    width: 300px;
+    
+    text-align: center;
+}
+
+
+
+.puesto{
+    margin: 10px;
+}
+
+.pie__container{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #254F80 ;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+.card__description{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 250px;
+    align-items: center;
+    
+}
+.card__content{
+    
+    grid-column: 1/1;
+    grid-row: 1/1;
+    margin: 0 auto;
+}
+
+.img-card{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    pointer-events: unset;
+}
+
+.text{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    opacity: 0;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.text:hover{
+    opacity: 1;
+}
+
+.frontend .text{
+    background-color: #254f80a9;
+    border: #254F80 solid 4px;
+}
+.mechanical .text{
+    background-color: #257a8086;
+    border: #257a80 solid 4px;
+}
+.datascientist .text{
+    background-color: #8025258a;
+    border: #802525 solid 4px;
+}
+
+
